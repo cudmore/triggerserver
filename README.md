@@ -23,11 +23,13 @@ This is a hand-copied version of my trigger server software. The idea is to have
 - Raspberry Pi 2
 - Raspberry Pi Noir camera
 - 4x 800-900 nm IR LEDs
+
 ####Arduino
 - Arduino Uno (also Demilanove)
 - Big Easy stepper driver
 - Nema stepper motor
 - Rotary encoder
+
 ####Shared
 - 8 channel voltage converter to go from 5V DIO on Arduino to 3V DIO on Pi
 - 12V 2A power for motor controller and IR LED
