@@ -66,6 +66,8 @@ Have a Raspberry Pi be the master control for a trial based experiment. Each tri
 
 Get rid of the Arduino and have Raspberry do everyhting. Before I do this I need to look at the timing jitter as ScanImage frame clock is coming into low level interrupts on the Pi (while the Pi is running other code).
 
+Revamp QT interface with buttons using pyqt. This file is not in github archive.
+
 Get these [IR led strips](http://www.ledlightsworld.com/infrared-led-strips-c-1_79.html)
 
 ##Estimated cost
