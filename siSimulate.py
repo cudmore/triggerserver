@@ -1,7 +1,15 @@
-#May 30, 2015
-#simulate the scan image frame clock
-#todo: rewrite this and enclode running of frame clock in a function
+#Author: Robert H Cudmore
+#Web: http://robertcudmore.org
+#Date: may 30, 2015
+#Purpose: simulate the scan image frame clock
+#
 #call this function from within triggerserver.py
+#
+# Usage:
+# import siSimulate
+# si = sisimulate.sisimulate()
+# si.Set(500, 1000, 50) #delay=500, duration=1000, speed=50
+# si.Go()
 
 import RPi.GPIO as GPIO
 import math
