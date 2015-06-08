@@ -20,7 +20,7 @@ This is a hand-copied version of my trigger server software. The idea is to have
 
 ###Hardware
 ####Raspberry
-- [Raspberry Pi 2](1)
+- [Raspberry Pi 2][1]
 - Raspberry Pi Noir camera
 - 4x 800-900 nm IR LEDs
 
@@ -38,4 +38,4 @@ This is a hand-copied version of my trigger server software. The idea is to have
 
 Just get rid of the Arduino and have Raspberry do everyhting. Before I do this I need to look at the timing jitter as ScanImage frame clock is coming into low level interrupts on the Pi (while the Pi is running other code).
 
-1 : http://www.raspberrypi.org/products/raspberry-pi-2-model-b/
+[1]: http://www.raspberrypi.org/products/raspberry-pi-2-model-b/
